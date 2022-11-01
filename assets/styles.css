@@ -382,7 +382,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 5%;
+  bottom: 1%;
   margin: auto;
   animation: MoveUpDown 2s linear infinite;
   -webkit-animation: MoveUpDown 2s linear infinite;
