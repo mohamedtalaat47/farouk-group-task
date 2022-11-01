@@ -52,7 +52,7 @@
 
 #hero h1 {
   font-weight: 400;
-  font-size: 7rem;
+  font-size: 5rem;
 }
 
 @keyframes MoveUpDown {
@@ -376,4 +376,15 @@
   #chat1 {
     display: none;
   }
+
+  
+.hero-arrow {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 5%;
+  margin: auto;
+  animation: MoveUpDown 2s linear infinite;
+  -webkit-animation: MoveUpDown 2s linear infinite;
+}
 }
